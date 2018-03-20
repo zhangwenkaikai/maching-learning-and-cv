@@ -81,6 +81,7 @@
 
     ![CPU和GPU对比](./imgs/cpu-and-gpu.png)
 
+
     - Cache、Local Memory ： CPU > GPU
     - Threads（线程数）：GPU > CPU
     - Registers（寄存器）：GPU > CPU 
