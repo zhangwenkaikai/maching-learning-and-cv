@@ -81,7 +81,6 @@
 
     ![CPU和GPU对比](./imgs/cpu-and-gpu.png)
 
-
     - Cache、Local Memory ： CPU > GPU
     - Threads（线程数）：GPU > CPU
     - Registers（寄存器）：GPU > CPU 
@@ -103,10 +102,30 @@ GPU在设计上，高延迟，可是高吞吐量。GPU的特点是有很多的AL
     安装教程自行搜索脑补就行。
 
 
+1.6 编程语言 + 数学基础
+
+- python
+
+    推荐作为入门语言，简单容易上手，需要了解一些库：numpy、pandas、matplotlib等。
+
+- C++
+
+    作为深入了解并尝试进行优化，C++必不可少，也是编写并修改的最佳语言。当然，如果你了解C、Matlab等语言那也是甚好的。
+
+- 线性代数
+
+    可以把重点放在矩阵运算上。
+
+- 概率统计
+
+    了解基本概率统计知识、高斯分布、中值、标准差和方差等概念。
+
+- MachineLearning
+
+    能够用公式表示代价函数、使用低度下降法来优化模型。当然机器学习内容实在是很多，建议能够完整走一遍，也可以看斯坦福的CS229课程
     
 
-
-1.* 计算机视觉的应用
+1.7 计算机视觉的应用
 
 计算机视觉之于未来人工智能，就好比眼睛之于人的重要性一样。是未来很多领域自动化获取数据的主要渠道之一，也是处理数据的重要工具之一。目前可以预想到的应用主要有如下：
 - 无人驾驶
@@ -124,7 +143,36 @@ GPU在设计上，高延迟，可是高吞吐量。GPU的特点是有很多的AL
 
 ## 二、推荐参考书和公开课
 
+2.1 参考书籍
+
+- [《Computer Vision : Models,Learning and Inference》](http://www.computervisionmodels.com/)
+
+    理论入门书籍
+
+- [《Learning OpenCV》](https://book.douban.com/subject/26579824/)
+
+    计算机视觉必备工具
+
+- [《Computer Vision : Algorithms and Applications》](http://www.springer.com/cn/book/9781848829343)
+
+    计算机视觉算法和应用，属于进阶篇，这样的书一般都有中文译本。
+
+2.2 公开课
+
+- [李飞飞计算机视觉系列课程](http://study.163.com/course/courseMain.htm?courseId=1003223001)
+
+    这个课程作为入门非常合适，里面也会分享一些干货
+
+- Stanford CS231N
+
+    [B站资源链接](https://www.bilibili.com/video/av17204303?from=search&seid=2858527165010946306)
+
+这两门课我觉得经典的课程，如果认真学完的话，基本上是已经入门了，找一般的工作工作应该是没有问题。
+
+
 ## 三、你还是需要学习一些深度学习知识
+
+
 
 ## 四、开源框架必不可少
 
