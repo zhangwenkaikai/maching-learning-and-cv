@@ -155,7 +155,7 @@ GPU在设计上，高延迟，可是高吞吐量。GPU的特点是有很多的AL
 
 - [《Computer Vision : Algorithms and Applications》](http://www.springer.com/cn/book/9781848829343)
 
-    计算机视觉算法和应用，属于进阶篇，这样的书一般都有中文译本。
+    计算机视觉算法和应用，属于进阶篇，这样的书一般都有中文译本。本人也是几经周折，找到了一些资料，供大家下载学习。
 
 2.2 公开课
 
@@ -169,11 +169,91 @@ GPU在设计上，高延迟，可是高吞吐量。GPU的特点是有很多的AL
 
 这两门课我觉得经典的课程，如果认真学完的话，基本上是已经入门了，找一般的工作工作应该是没有问题。
 
+2.3 网站
+
+- [Visionbib](http://www.visionbib.com/bibliography/contents.html)
+
+    这个网站是国外大佬从1994年开始专注于计算机视觉研究，上面收录了很多与此相关文献，大家可以看一些里程碑文献，让自己能够更好地理解视觉发展历程。
+
+- [vision.stanford](http://vision.stanford.edu/)
+    
+    没事上斯坦福大学计算机视觉研究团队官网看看，大佬们有没有发表一些研究成果文章，学习一番之后，将其翻译成blog也不失为一个好的学习方法（装逼方法）。
+
+
+这两个网站已经足够了，不要太多，学好才是最关键的。
+
 
 ## 三、你还是需要学习一些深度学习知识
 
+关于深度学习，评价最高的莫过于：《Deep Learning》Written by lan Goodfellow and YoshuaBengio 
 
+![CPU和GPU对比](./imgs/deep-learning-book.jpg)
+
+[购买链接](https://www.amazon.cn/dp/B073LWHBBY/ref=sr_1_1?ie=UTF8&qid=1521603041&sr=8-1&keywords=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0)，这本``AI圣经``我就不多废话了，攒钱买回去好好修炼吧！
 
 ## 四、开源框架必不可少
 
+关于开源框架，仁者见仁智者见智，我也免得引起战争，所以就罗列给一下个人不成熟的小建议。
+
+- ### Caffe
+
+    深度学习卷积神经网络开源框架。
+
+- ### Tensorflow
+
+    开源机器学习深度学习框架。
+
+- ### (Torch and Maxnet)
+
+    其他深度学习开源框架
+
+- ### ffmpeg
+
+    强大的视频处理工具
+    
+
+    ## 流行框架的对比图:
+
+    ![CPU和GPU对比](./imgs/frames.png)
+
+    [参考链接](http://blog.csdn.net/myarrow/article/details/52064608)
+
+
 ## 五、深入，则必须阅读相关文献
+
+当我们需要学习各种经典模型的时候，到哪里去找资料呢？一般大家都会直接``wikipedia``，可是我只想说，上面的也只是英文版汉译过来的，最好还是找一手资料，不然你吸收的知识，就不知道是被多少人消化过多少遍后得来的。当然也是有好的，不过那些大牛都是直接看原版才能得出更加深刻的结论，所以看原版文献是一件很重要的学习途径，不然就永远装不了*（学习不到最纯正的knowledge）。
+
+5.1 里程碑式的文献
+
+    先熟悉所在方向的发展历程，历程中的里程碑式的文献必须要精读。
+
+    例如，深度学习做目标检测，RCNN、Fast RCNN、Fater RCNN、SPPNET、SSD和YOLO等模型；又例如，深度学习做目标跟踪，DLT、SO-DLT等等；再例如，对抗网络GAN、CGAN、DCGAN、LAPGAN等等。
+
+5.2 文献网站
+
+    [arxiv](https://arxiv.org/list/cs.CV/recent) ：每天去更新一下别人最新的工作
+
+5.3 计算视觉的顶会
+
+- ICCV：国际计算机视觉大会
+- CVPR：国际计算机视觉与模式识别大会
+- ECCV：欧洲计算机视觉大会
+
+5.4 计算机视觉的顶刊
+
+- PAMI：IEEE 模式分析与机器智能杂志
+- IJCV：国际计算机视觉杂志
+
+
+
+六：总结
+
+无论别人给出多好的资料，最终还是要靠自己踏实下来，对各种知识点细嚼慢咽。AI 不易，且行且珍惜
+
+
+***
+
+
+> 我个人对计算机视觉非常感兴趣，接下来会不断的分享各种关于CV的学习心得和干货。小白上路，大家如果能施舍一些star或者follow将会是给我最大的动力。
+> - [Blog](https://github.com/wj-Mcat/maching-learning-and-cv)
+> - [Github](https://github.com/wj-Mcat)
