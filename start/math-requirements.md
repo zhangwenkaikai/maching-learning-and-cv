@@ -248,7 +248,11 @@
 
 ### 4.2 相对熵
 
+相对熵（relative entropy）又称为KL散度（Kullback–Leibler divergence，简称KLD）[1]，信息散度（information divergence），信息增益（information gain）。
 
+KL散度是两个概率分布P和Q差别的非对称性的度量。 KL散度是用来 度量使用基于Q的编码来编码来自P的样本平均所需的额外的位元数。 典型情况下，P表示数据的真实分布，Q表示数据的理论分布，模型分布，或P的近似分布。
+
+详细的推导我就不再赘述，这里我贴出详细文档即可。
 
 ***
 
