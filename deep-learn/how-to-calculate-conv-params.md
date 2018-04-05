@@ -12,9 +12,6 @@ from keras.layers import Dropout, Flatten, Dense
 from keras.models import Sequential
 
 model = Sequential()
-
-## TODO: 定义你的网络架构
-print(np.array(train_tensors).shape)
 model.add(Conv2D(16,(2,2),input_shape=(224,224,3)))
 model.add(MaxPooling2D(pool_size=(2,2)))
 model.add(Dense(133))
