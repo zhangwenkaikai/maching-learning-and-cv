@@ -5,3 +5,14 @@
 
 ## 机器学习基础
 - [PCA]()
+
+# 推荐的优秀博主
+
+> 大家有事没事，可以到上面去看看他们写的一些文章，相信肯定是有所收获的
+
+
+- [CSDN-张雨石](https://blog.csdn.net/stdcoutzyx/article/details/79117869)
+
+- [Keras中文文档](http://keras-cn.readthedocs.io/en/latest/layers/convolutional_layer/)
+
+- []()
